@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  reports-local-db:
+    build: .
+    ports:
+      - "1522:1521"
